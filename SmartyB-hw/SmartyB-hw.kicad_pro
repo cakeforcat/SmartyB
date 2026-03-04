@@ -502,10 +502,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "SmartyB-hw-backups/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SmartyB-hw.step",
       "svg": "",
       "vrml": ""
     },
