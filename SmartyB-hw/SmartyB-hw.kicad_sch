@@ -436,7 +436,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Converter_ACDC:IRM-03-5"
+		(symbol "Converter_ACDC:IRM-05-5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -448,7 +448,7 @@
 					)
 				)
 			)
-			(property "Value" "IRM-03-5"
+			(property "Value" "IRM-05-5"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -456,7 +456,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT"
+			(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT"
 				(at 0 -8.89 0)
 				(effects
 					(font
@@ -465,7 +465,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF"
+			(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -474,7 +474,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "5V, 600mA, 3W, Isolated, AC-DC, IRM03"
+			(property "Description" "5V, 1A, 5W, Isolated, AC-DC, 222A(IRM05)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -492,7 +492,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Converter*ACDC*MeanWell*IRM*03*THT*"
+			(property "ki_fp_filters" "Converter*ACDC*MeanWell*IRM*05*THT*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -501,7 +501,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IRM-03-5_0_1"
+			(symbol "IRM-05-5_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -646,7 +646,7 @@
 					)
 				)
 			)
-			(symbol "IRM-03-5_1_1"
+			(symbol "IRM-05-5_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -657,7 +657,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -675,26 +675,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -712,7 +693,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -730,7 +711,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -848,6 +829,173 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N914"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N914"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N914_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N914_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2108,10 +2256,34 @@
 		(uuid "59511d2f-0558-4ecd-81bf-4abd245d5b89")
 	)
 	(junction
+		(at 160.02 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "697b718e-e758-490a-a771-d8e456ed9ab5")
+	)
+	(junction
+		(at 223.52 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a759af3a-8373-47c0-80b4-5557ceed772c")
+	)
+	(junction
+		(at 160.02 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1ec63df-3298-4e0a-a166-3d2dbd38d761")
+	)
+	(junction
 		(at 215.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edc9efbd-2962-475b-9cc7-aee19ee4dce5")
+	)
+	(junction
+		(at 223.52 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff646ed8-a996-40d0-b734-0e61ae816155")
 	)
 	(wire
 		(pts
@@ -2122,6 +2294,16 @@
 			(type default)
 		)
 		(uuid "017efe6e-6857-4233-993c-03a4f2aaf3b7")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1497c792-6a0c-4b82-8111-3a07965879af")
 	)
 	(wire
 		(pts
@@ -2235,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 73.66) (xy 223.52 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8484dc1f-6a58-4d2c-a5fb-3cc6144888c8")
+	)
+	(wire
+		(pts
 			(xy 132.08 135.89) (xy 134.62 135.89)
 		)
 		(stroke
@@ -2242,6 +2434,16 @@
 			(type default)
 		)
 		(uuid "99485d72-5ec4-4e01-b14f-de761eeb42fa")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0736651-c4b7-4ccc-8bcb-d469decda0b0")
 	)
 	(wire
 		(pts
@@ -2315,6 +2517,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 81.28) (xy 223.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d486b916-a34c-4292-9958-8a311ca7ce43")
+	)
+	(wire
+		(pts
+			(xy 213.36 73.66) (xy 223.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a57f89-e416-4b97-a89e-da371ee45c0e")
+	)
+	(wire
+		(pts
 			(xy 160.02 105.41) (xy 152.4 105.41)
 		)
 		(stroke
@@ -2322,6 +2544,16 @@
 			(type default)
 		)
 		(uuid "df9a6ca1-e879-44c9-b8dd-23dd521be471")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 160.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ba6813-8755-4134-b0b1-109192e344bd")
 	)
 	(wire
 		(pts
@@ -2393,6 +2625,16 @@
 		)
 		(uuid "0ee66b7b-8ffb-4067-b2bb-9da2d9d55a66")
 	)
+	(label "AC_SW2_L"
+		(at 118.11 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "186f09ee-35cc-4249-bef7-adb8bb541973")
+	)
 	(label "AC_IN_N"
 		(at 118.11 53.34 180)
 		(effects
@@ -2443,16 +2685,6 @@
 		)
 		(uuid "45fabd5e-7b09-42a1-9426-10c6a64aa815")
 	)
-	(label "AC_SW2_L"
-		(at 118.11 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "471afbbe-5f33-4397-8a59-992d77edbc2e")
-	)
 	(label "SW1"
 		(at 143.51 92.71 180)
 		(effects
@@ -2474,14 +2706,14 @@
 		(uuid "54920c1b-ad3e-4b33-9ffe-78f04e6f61b2")
 	)
 	(label "AC_IN_L"
-		(at 118.11 41.91 180)
+		(at 118.11 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "627242aa-1c20-4cba-9be5-160870529849")
+		(uuid "563181cd-4769-45a4-a23b-8203f55a447e")
 	)
 	(label "BTN2"
 		(at 91.44 147.32 0)
@@ -3409,6 +3641,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N914")
+		(at 148.59 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b56962-231c-4590-a3db-be9123e7e3a8")
+		(property "Reference" "D1"
+			(at 151.13 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N914"
+			(at 151.13 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 144.145 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b31a027-f530-4758-89ff-7730d4b19fc9")
+		)
+		(pin "1"
+			(uuid "53012c36-7b8e-446d-9a2c-3f7362a283d4")
+		)
+		(instances
+			(project ""
+				(path "/2a2955fd-be6c-4d23-b3d3-bea7f6aef8ef"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 133.35 0)
 		(unit 1)
@@ -3856,6 +4176,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N914")
+		(at 213.36 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a0a6bb8-f449-4c97-92fe-5e34000b8355")
+		(property "Reference" "D2"
+			(at 215.9 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N914"
+			(at 215.9 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 208.915 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b31a027-f530-4758-89ff-7730d4b19fc9")
+		)
+		(pin "1"
+			(uuid "53012c36-7b8e-446d-9a2c-3f7362a283d4")
+		)
+		(instances
+			(project ""
+				(path "/2a2955fd-be6c-4d23-b3d3-bea7f6aef8ef"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 144.78 144.78 0)
 		(unit 1)
@@ -3916,6 +4324,80 @@
 			(project "SmartyB-hw"
 				(path "/2a2955fd-be6c-4d23-b3d3-bea7f6aef8ef"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_ACDC:IRM-05-5")
+		(at 62.23 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fe45510-beb2-4363-84d4-1bdf7f3b1096")
+		(property "Reference" "PS2"
+			(at 62.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRM-05-5"
+			(at 62.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT"
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF"
+			(at 62.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5V, 1A, 5W, Isolated, AC-DC, 222A(IRM05)"
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a8ac94e7-562e-4ac2-9c5e-071c59e8809e")
+		)
+		(pin "3"
+			(uuid "ac8b60b2-4212-4bc3-a8de-84e830877c54")
+		)
+		(pin "2"
+			(uuid "295dfeca-649e-4c8a-9b5e-23ff7369c03b")
+		)
+		(pin "1"
+			(uuid "a345add6-e7fb-4dfb-ad19-075c09cc26ba")
+		)
+		(instances
+			(project ""
+				(path "/2a2955fd-be6c-4d23-b3d3-bea7f6aef8ef"
+					(reference "PS2")
 					(unit 1)
 				)
 			)
@@ -4254,13 +4736,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "920e3e8d-26e1-4f86-ac04-b11110e36bf0")
+			(uuid "920e3e8d-26e1-4f86-ac04-b11110e36bf1")
 		)
 		(pin "1"
-			(uuid "d8947927-16f6-44a3-96b2-9b2df229a0ab")
+			(uuid "d8947927-16f6-44a3-96b2-9b2df229a0ac")
 		)
 		(pin "2"
-			(uuid "5b73a58d-6bbc-4f50-9ed2-145f245d77ba")
+			(uuid "5b73a58d-6bbc-4f50-9ed2-145f245d77bb")
 		)
 		(instances
 			(project ""
@@ -4273,7 +4755,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 160.02 78.74 0)
+		(at 160.02 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4282,7 +4764,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1a2628e-a327-4053-9d44-2ebcef85cbc7")
 		(property "Reference" "#PWR04"
-			(at 160.02 82.55 0)
+			(at 160.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4773,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 160.02 73.66 0)
+			(at 160.02 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 78.74 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 78.74 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 160.02 78.74 0)
+			(at 160.02 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,83 +4814,6 @@
 			(project ""
 				(path "/2a2955fd-be6c-4d23-b3d3-bea7f6aef8ef"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Converter_ACDC:IRM-03-5")
-		(at 62.23 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1a3ed8c-b4ed-4ddc-8023-af1413a001f7")
-		(property "Reference" "PS1"
-			(at 62.23 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRM-03-5"
-			(at 62.23 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-03-xx_THT"
-			(at 62.23 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-03/IRM-03-SPEC.PDF"
-			(at 62.23 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5V, 600mA, 3W, Isolated, AC-DC, IRM03"
-			(at 62.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4120c315-e4e3-428d-b5ea-06d242d20137")
-		)
-		(pin "1"
-			(uuid "d15d6a84-4232-419d-a644-46f7f8c670c5")
-		)
-		(pin "14"
-			(uuid "3e455d4e-f6a0-4296-9cd2-24b30307815b")
-		)
-		(pin "16"
-			(uuid "7aa1d89f-8090-440d-b742-37f42cb187bb")
-		)
-		(pin "5"
-			(uuid "f482500f-3fc1-4daa-9b17-4338258c6359")
-		)
-		(instances
-			(project ""
-				(path "/2a2955fd-be6c-4d23-b3d3-bea7f6aef8ef"
-					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -5029,7 +5434,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 223.52 78.74 0)
+		(at 223.52 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5038,7 +5443,7 @@
 		(fields_autoplaced yes)
 		(uuid "e19d1e5f-c2fb-4159-939e-806e5226adf8")
 		(property "Reference" "#PWR03"
-			(at 223.52 82.55 0)
+			(at 223.52 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5452,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 223.52 73.66 0)
+			(at 223.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 78.74 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 78.74 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 78.74 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
